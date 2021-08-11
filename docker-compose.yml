@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  neovim:
+    image: neovim_image
+    container_name: neovim_container
+    hostname: neovim_server
+    ports:
+      - "9000:9000"
+    build: .
+    command: /bin/bash
