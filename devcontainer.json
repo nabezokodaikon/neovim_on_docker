@@ -1,0 +1,8 @@
+{
+  "name": "neovim_on_docker",
+  "image": "neovim_image:latest",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "neovim",
+  "workspaceMount": "./",
+  "workspaceFolder": "/root/ws"
+}
