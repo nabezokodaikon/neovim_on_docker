@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run --rm --name neovim_container -it neovim_image /bin/bash
+docker-compose run neovim
+docker-compose rm -f
